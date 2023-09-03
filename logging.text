@@ -1,0 +1,237 @@
+Request method:	POST
+Request URI:	https://computequoteapi-3scale-apicast-staging.uatwebservices.manipalcigna.com/v1/rest/api/cigna/QuoteCompute
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		app_id=240f9d2c
+				app_key=12345
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "listofquotationTO": [
+        {
+            "channelId": "350",
+            "productId": "SPLS03SBSF",
+            "parentProductId": "SPLS03",
+            "parentProductVersion": 1,
+            "noOfAdults": 1,
+            "noOfKids": 0,
+            "tenure": 1,
+            "productPlanOptionCd": "IN-PLS5-HD5",
+            "policyType": "INDIVIDUAL",
+            "saveFl": "YES",
+            "quoteTypeCd": "INITIAL",
+            "quotationDt": "19/08/2023",
+            "agentId": "1607647-01",
+            "campaignCd": "",
+            "productFamilyCd": "SUPERTOPUP",
+            "inwardTypeCd": "NEWBUSINESS",
+            "inwardSubTypeCd": "PROPOSALDOCUMENT",
+            "caseType": null,
+            "quotationProductDOList": [
+                {
+                    "productId": "SPLS03SBSF",
+                    "productVersion": 1,
+                    "productPlanOptionCd": "IN-PLS5-HD5",
+                    "sumInsured": 500000,
+                    "zoneCd": "ZONE1",
+                    "productTypeCd": "SUBPLAN",
+                    "paymentFrequencyCd": "SINGLE",
+                    "quotationProductInsuredDOList": [
+                        {
+                            "issueAge": 0,
+                            "genderCd": "MALE",
+                            "insuredTypeCd": "PRIMARY",
+                            "cityCd": "Mumbai",
+                            "mobileNum": "6387454414",
+                            "emailAddress": "",
+                            "dob": "19/08/1994",
+                            "zoneCd": "ZONE1",
+                            "relationCd": "SELF",
+                            "productPlanOptionCd": "IN-PLS5-HD5",
+                            "sumInsured": "500000",
+                            "refGuid": "First"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://computequoteapi-3scale-apicast-staging.uatwebservices.manipalcigna.com/v1/rest/api/cigna/QuoteCompute
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		app_id=240f9d2c
+				app_key=12345
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "listofquotationTO": [
+        {
+            "channelId": "350",
+            "productId": "SPLS03SBSF",
+            "parentProductId": "SPLS03",
+            "parentProductVersion": 1,
+            "noOfAdults": 2,
+            "noOfKids": 0,
+            "tenure": 1,
+            "productPlanOptionCd": "FL-PLS5-HD5",
+            "policyType": "FAMILYFLOATER",
+            "saveFl": "YES",
+            "quoteTypeCd": "INITIAL",
+            "quotationDt": "19/08/2023",
+            "agentId": "1607647-01",
+            "campaignCd": "",
+            "productFamilyCd": "SUPERTOPUP",
+            "inwardTypeCd": "NEWBUSINESS",
+            "inwardSubTypeCd": "PROPOSALDOCUMENT",
+            "caseType": null,
+            "quotationProductDOList": [
+                {
+                    "productId": "SPLS03SBSF",
+                    "productVersion": 1,
+                    "productPlanOptionCd": "FL-PLS5-HD5",
+                    "sumInsured": 500000,
+                    "zoneCd": "ZONE1",
+                    "productTypeCd": "SUBPLAN",
+                    "paymentFrequencyCd": "SINGLE",
+                    "quotationProductInsuredDOList": [
+                        {
+                            "issueAge": 0,
+                            "genderCd": "MALE",
+                            "insuredTypeCd": "PRIMARY",
+                            "cityCd": "Mumbai",
+                            "mobileNum": "6387454414",
+                            "emailAddress": "",
+                            "dob": "19/08/1994",
+                            "zoneCd": "ZONE1",
+                            "relationCd": "SELF",
+                            "productPlanOptionCd": "FL-PLS5-HD5",
+                            "sumInsured": "500000",
+                            "refGuid": "First"
+                        },
+                        {
+                            "issueAge": 0,
+                            "genderCd": "FEMALE",
+                            "insuredTypeCd": "PRIMARY",
+                            "cityCd": "Mumbai",
+                            "mobileNum": "8356928442",
+                            "emailAddress": "",
+                            "dob": "19/08/1975",
+                            "zoneCd": "ZONE1",
+                            "relationCd": "WIFE",
+                            "productPlanOptionCd": "FL-PLS5-HD5",
+                            "sumInsured": "500000",
+                            "refGuid": "Second"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://computequoteapi-3scale-apicast-staging.uatwebservices.manipalcigna.com/v1/rest/api/cigna/QuoteCompute
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		app_id=240f9d2c
+				app_key=12345
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "listofquotationTO": [
+        {
+            "channelId": "350",
+            "productId": "SPLS03SBSF",
+            "parentProductId": "SPLS03",
+            "parentProductVersion": 1,
+            "noOfAdults": 2,
+            "noOfKids": 1,
+            "tenure": 1,
+            "productPlanOptionCd": "FL-PLS5-HD5",
+            "policyType": "FAMILYFLOATER",
+            "saveFl": "YES",
+            "quoteTypeCd": "INITIAL",
+            "quotationDt": "19/08/2023",
+            "agentId": "1607647-01",
+            "campaignCd": "",
+            "productFamilyCd": "SUPERTOPUP",
+            "inwardTypeCd": "NEWBUSINESS",
+            "inwardSubTypeCd": "PROPOSALDOCUMENT",
+            "caseType": null,
+            "quotationProductDOList": [
+                {
+                    "productId": "SPLS03SBSF",
+                    "productVersion": 1,
+                    "productPlanOptionCd": "FL-PLS5-HD5",
+                    "sumInsured": 500000,
+                    "zoneCd": "ZONE1",
+                    "productTypeCd": "SUBPLAN",
+                    "paymentFrequencyCd": "SINGLE",
+                    "quotationProductInsuredDOList": [
+                        {
+                            "issueAge": 0,
+                            "genderCd": "MALE",
+                            "insuredTypeCd": "PRIMARY",
+                            "cityCd": "Mumbai",
+                            "mobileNum": "6387454414",
+                            "emailAddress": "",
+                            "dob": "19/08/1994",
+                            "zoneCd": "ZONE1",
+                            "relationCd": "SELF",
+                            "productPlanOptionCd": "FL-PLS5-HD5",
+                            "sumInsured": "500000",
+                            "refGuid": "First"
+                        },
+                        {
+                            "issueAge": 0,
+                            "genderCd": "FEMALE",
+                            "insuredTypeCd": "PRIMARY",
+                            "cityCd": "Mumbai",
+                            "mobileNum": "8356928442",
+                            "emailAddress": "",
+                            "dob": "19/08/1975",
+                            "zoneCd": "ZONE1",
+                            "relationCd": "WIFE",
+                            "productPlanOptionCd": "FL-PLS5-HD5",
+                            "sumInsured": "500000",
+                            "refGuid": "Second"
+                        },
+                        {
+                            "issueAge": 0,
+                            "genderCd": "MALE",
+                            "insuredTypeCd": "PRIMARY",
+                            "cityCd": "Mumbai",
+                            "mobileNum": "6387454414",
+                            "emailAddress": "",
+                            "dob": "19/08/2000",
+                            "zoneCd": "ZONE1",
+                            "relationCd": "SON",
+                            "productPlanOptionCd": "FL-PLS5-HD5",
+                            "sumInsured": "500000",
+                            "refGuid": "First"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
