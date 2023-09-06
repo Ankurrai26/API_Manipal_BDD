@@ -32,7 +32,7 @@ public class Utility {
 public static String GetPropertiesValue(String key) throws IOException {
 	
 	Properties p =new Properties();
-	FileInputStream intfile = new FileInputStream("C:\\Users\\ankur\\eclipse-workspace\\maven\\manipal\\APIautomate\\src\\test\\java\\resources\\global.properties");
+	FileInputStream intfile = new FileInputStream("https://github.com/Ankurrai26/API_Manipal_BDD/blob/master/src/test/java/resources/global.properties");
 	p.load(intfile);
 	String propertydetail = p.getProperty(key);
 	return propertydetail;
