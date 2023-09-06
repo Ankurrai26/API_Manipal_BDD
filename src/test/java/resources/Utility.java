@@ -32,7 +32,10 @@ System.out.println(GetPropertiesValue("baseurl"));
 public static String GetPropertiesValue(String key) throws IOException {
 	
 	Properties p =new Properties();
+
 	FileInputStream intfile = new FileInputStream("C:\\Users\\PolicyGuru\\eclipse-workspace\\API_Manipal_BDD\\src\\test\\java\\resources\\global.properties");
+
+	
 	p.load(intfile);
 	String propertydetail = p.getProperty(key);
 	return propertydetail;
