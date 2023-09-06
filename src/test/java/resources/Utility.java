@@ -17,10 +17,10 @@ public class Utility {
 	
 	public static RequestSpecification RequestSpecificationss() throws IOException {
 		
-		PrintStream log = new PrintStream(new FileOutputStream("logging.text",true));
+		PrintStream log = new PrintStream(new FileOutputStream("logging1.text",true));
 		
-		RequestSpecification Pathspecified= new RequestSpecBuilder().addFilter(RequestLoggingFilter.logRequestTo(log)).addFilter(ResponseLoggingFilter.logResponseTo(log)).setBaseUri(GetPropertiesValue("baseurl")).addHeader("app_id","240f9d2c").addHeader("app_key", "12345").setContentType(ContentType.JSON).build();
-
+		RequestSpecification Pathspecified= new RequestSpecBuilder().addFilter(RequestLoggingFilter.logRequestTo(log)).addFilter(ResponseLoggingFilter.logResponseTo(log)).setBaseUri("https://computequoteapi-3scale-apicast-staging.uatwebservices.manipalcigna.com").addHeader("app_id","240f9d2c").addHeader("app_key", "12345").setContentType(ContentType.JSON).build();
+System.out.println(GetPropertiesValue("baseurl"));
 		return Pathspecified;
 		
 	}
@@ -32,7 +32,7 @@ public class Utility {
 public static String GetPropertiesValue(String key) throws IOException {
 	
 	Properties p =new Properties();
-	FileInputStream intfile = new FileInputStream("C:\\Users\\ankur\\eclipse-workspace\\maven\\manipal\\APIautomate\\src\\test\\java\\resources\\global.properties");
+	FileInputStream intfile = new FileInputStream("C:\\Users\\PolicyGuru\\eclipse-workspace\\API_Manipal_BDD\\src\\test\\java\\resources\\global.properties");
 	p.load(intfile);
 	String propertydetail = p.getProperty(key);
 	return propertydetail;

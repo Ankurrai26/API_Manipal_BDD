@@ -1,0 +1,7 @@
+PalAPIAutomate\APIautomate\App.class
+pojoPackageSerialization\DataProviderforGetQuoteList.class
+pojoPackageSerialization\GetQuoteApiPojo.class
+pojoPackageSerialization\ListofquotationTO.class
+pojoPackageSerialization\ParentOfListofquotationTO.class
+pojoPackageSerialization\QuotationProductDOList.class
+pojoPackageSerialization\QuotationProductInsuredDOList.class

@@ -12,6 +12,7 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
@@ -62,6 +63,12 @@
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-core</artifactId>
     <version>2.15.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.4.0</version>
 </dependency>
     
     
@@ -168,6 +175,11 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+       <plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-war-plugin</artifactId>
+<version>3.3.0</version> <!-- Use the version appropriate for your project -->
+</plugin> 
       </plugins>
     </pluginManagement>
   </build>
